@@ -1,0 +1,89 @@
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.maisonmedicale.org/docrestreint.api/10669/f0755203a195047d8cdf8e932cddff17d4231ee5/jpg/13162574.jpg");
+}
+
+div#panel{
+  margin-top: 150px;
+  margin-bottom: 30px;
+  background-color: rgba(255,255,255,0.6);
+  height: 500px;
+  width: 700px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  border-radius:25px;
+}
+
+h1#title{
+  font-family: 'Amatic SC', cursive;
+  text-align:  center ;
+  font-size: 75px;
+  padding-top: 20px;
+}
+h1#display-ratio{
+  font-family: 'Amatic SC', cursive;
+  text-align:  center ;
+  font-size: 75px;
+  margin-top: 30px;
+}
+
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.slider:hover {
+  opacity: 5;
+}
+
+#rolls::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50px;
+  height: 45px;
+  border: 0;
+  background: url('toilet.png');
+  cursor: pointer;
+}
+
+#rolls::-moz-range-thumb {
+  width: 50px;
+  height: 45px;
+  border: 0;
+  background: url('toilet.png');
+  cursor: pointer;
+}
+#days::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 49px;
+  height: 58px;
+  border: 0;
+  background: url('calender.png');
+  cursor: pointer;
+}
+
+#days::-moz-range-thumb {
+  width: 49px;
+  height: 58px;
+  border: 0;
+  background: url('calender.png');
+  cursor: pointer;
+}
+

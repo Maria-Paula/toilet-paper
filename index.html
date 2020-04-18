@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Toilet Paper Rush!</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div id="panel" id="panel-default">
+			<div id="panel-body">
+				<h1 id="title">TOILET PAPER RUSH!</h1>
+		
+				<div class="slidecontainer">
+  				<input type="range" min="1" max="100" value="50" class="slider" id="rolls">
+  				<p>Value: <span id="rollsValue"></span></p>
+				</div>
+				<div class="slidecontainer">
+  				<input type="range" min="1" max="100" value="50" class="slider" id="days">
+  				<p>Value: <span id="daysValue"></span></p>
+				</div>
+<!-- 
+		<form id="form">
+			<label for="nb-rolls">Rolls you have left:</label>
+			<input type="text" name="nb-rolls" id="nb-rolls">
+
+			<label for="nb-days">Days you have left:</label>
+			<input type="text" name="nb-days" id="nb-days">
+
+			<input type="submit" value="Calculate!">
+		</form> -->
+
+				<div id ="output">
+					<h1 id="display-ratio"></h1>
+				</div>
+			</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
